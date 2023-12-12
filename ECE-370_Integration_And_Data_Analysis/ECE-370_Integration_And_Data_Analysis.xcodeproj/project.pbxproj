@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0D476362B287C800044DA3A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D476352B287C800044DA3A /* main.c */; };
+		E0D4763F2B287CBA0044DA3A /* GeneralUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D4763E2B287CBA0044DA3A /* GeneralUtilities.c */; };
+		E0D476422B287CC60044DA3A /* StringUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D476412B287CC60044DA3A /* StringUtilities.c */; };
+		E0D476452B287CD30044DA3A /* FileUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D476442B287CD30044DA3A /* FileUtilities.c */; };
+		E0D4764B2B287E2E0044DA3A /* StatisticalMethods.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D4764A2B287E2E0044DA3A /* StatisticalMethods.c */; };
+		E0D476512B287E420044DA3A /* PlottingMethods.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D476502B287E420044DA3A /* PlottingMethods.c */; };
+		E0D476572B287E570044DA3A /* DataAnalysis.c in Sources */ = {isa = PBXBuildFile; fileRef = E0D476562B287E570044DA3A /* DataAnalysis.c */; };
+		E0DC77FC2B288C0D008C77FA /* DataSetUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = E0DC77FB2B288C0D008C77FA /* DataSetUtilities.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0D476302B287C800044DA3A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E0D476322B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ECE-370_Integration_And_Data_Analysis"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D476352B287C800044DA3A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E0D4763D2B287CBA0044DA3A /* GeneralUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralUtilities.h; sourceTree = "<group>"; };
+		E0D4763E2B287CBA0044DA3A /* GeneralUtilities.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneralUtilities.c; sourceTree = "<group>"; };
+		E0D476402B287CC60044DA3A /* StringUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtilities.h; sourceTree = "<group>"; };
+		E0D476412B287CC60044DA3A /* StringUtilities.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StringUtilities.c; sourceTree = "<group>"; };
+		E0D476432B287CD30044DA3A /* FileUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtilities.h; sourceTree = "<group>"; };
+		E0D476442B287CD30044DA3A /* FileUtilities.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FileUtilities.c; sourceTree = "<group>"; };
+		E0D476492B287E2E0044DA3A /* StatisticalMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticalMethods.h; sourceTree = "<group>"; };
+		E0D4764A2B287E2E0044DA3A /* StatisticalMethods.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StatisticalMethods.c; sourceTree = "<group>"; };
+		E0D4764F2B287E420044DA3A /* PlottingMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlottingMethods.h; sourceTree = "<group>"; };
+		E0D476502B287E420044DA3A /* PlottingMethods.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PlottingMethods.c; sourceTree = "<group>"; };
+		E0D476552B287E570044DA3A /* DataAnalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAnalysis.h; sourceTree = "<group>"; };
+		E0D476562B287E570044DA3A /* DataAnalysis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DataAnalysis.c; sourceTree = "<group>"; };
+		E0DC77FA2B288C0D008C77FA /* DataSetUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSetUtilities.h; sourceTree = "<group>"; };
+		E0DC77FB2B288C0D008C77FA /* DataSetUtilities.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DataSetUtilities.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0D4762F2B287C800044DA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0D476292B287C800044DA3A = {
+			isa = PBXGroup;
+			children = (
+				E0D476342B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */,
+				E0D476332B287C800044DA3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D476332B287C800044DA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D476322B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D476342B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4763D2B287CBA0044DA3A /* GeneralUtilities.h */,
+				E0D4763E2B287CBA0044DA3A /* GeneralUtilities.c */,
+				E0D476402B287CC60044DA3A /* StringUtilities.h */,
+				E0D476412B287CC60044DA3A /* StringUtilities.c */,
+				E0D476432B287CD30044DA3A /* FileUtilities.h */,
+				E0D476442B287CD30044DA3A /* FileUtilities.c */,
+				E0DC77FA2B288C0D008C77FA /* DataSetUtilities.h */,
+				E0DC77FB2B288C0D008C77FA /* DataSetUtilities.c */,
+				E0DC77F92B288BED008C77FA /* Utilities */,
+				E0D476352B287C800044DA3A /* main.c */,
+				E0D476492B287E2E0044DA3A /* StatisticalMethods.h */,
+				E0D4764A2B287E2E0044DA3A /* StatisticalMethods.c */,
+				E0D4764F2B287E420044DA3A /* PlottingMethods.h */,
+				E0D476502B287E420044DA3A /* PlottingMethods.c */,
+				E0D476552B287E570044DA3A /* DataAnalysis.h */,
+				E0D476562B287E570044DA3A /* DataAnalysis.c */,
+			);
+			path = "ECE-370_Integration_And_Data_Analysis";
+			sourceTree = "<group>";
+		};
+		E0DC77F92B288BED008C77FA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0D476312B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D476392B287C800044DA3A /* Build configuration list for PBXNativeTarget "ECE-370_Integration_And_Data_Analysis" */;
+			buildPhases = (
+				E0D4762E2B287C800044DA3A /* Sources */,
+				E0D4762F2B287C800044DA3A /* Frameworks */,
+				E0D476302B287C800044DA3A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECE-370_Integration_And_Data_Analysis";
+			productName = "ECE-370_Integration_And_Data_Analysis";
+			productReference = E0D476322B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0D4762A2B287C800044DA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E0D476312B287C800044DA3A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E0D4762D2B287C800044DA3A /* Build configuration list for PBXProject "ECE-370_Integration_And_Data_Analysis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0D476292B287C800044DA3A;
+			productRefGroup = E0D476332B287C800044DA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D476312B287C800044DA3A /* ECE-370_Integration_And_Data_Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0D4762E2B287C800044DA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D4764B2B287E2E0044DA3A /* StatisticalMethods.c in Sources */,
+				E0D476572B287E570044DA3A /* DataAnalysis.c in Sources */,
+				E0D476452B287CD30044DA3A /* FileUtilities.c in Sources */,
+				E0D476422B287CC60044DA3A /* StringUtilities.c in Sources */,
+				E0D476362B287C800044DA3A /* main.c in Sources */,
+				E0DC77FC2B288C0D008C77FA /* DataSetUtilities.c in Sources */,
+				E0D4763F2B287CBA0044DA3A /* GeneralUtilities.c in Sources */,
+				E0D476512B287E420044DA3A /* PlottingMethods.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0D476372B287C800044DA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E0D476382B287C800044DA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E0D4763A2B287C800044DA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0D4763B2B287C800044DA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D4762D2B287C800044DA3A /* Build configuration list for PBXProject "ECE-370_Integration_And_Data_Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D476372B287C800044DA3A /* Debug */,
+				E0D476382B287C800044DA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D476392B287C800044DA3A /* Build configuration list for PBXNativeTarget "ECE-370_Integration_And_Data_Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D4763A2B287C800044DA3A /* Debug */,
+				E0D4763B2B287C800044DA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0D4762A2B287C800044DA3A /* Project object */;
+}
